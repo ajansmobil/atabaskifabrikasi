@@ -33,29 +33,29 @@
     
   </head>
   <body>
-    <div id="header"><div class="br1ny">
-  <div class="br1nytitle">
-    <div class="br1nytitlebody">
-      <div class="br1nytitlebodytitle">
+    <div id="header"><div class="fecat">
+  <div class="fecattitle">
+    <div class="fecattitlebody">
+      <div class="fecattitlebodytitle">
         Ata Baskı Fabrikası Web Sitemize Hoşgeldiniz
       </div>
-      <div class="br1nytitlebodylang">
+      <div class="fecattitlebodylang">
         <ul>
           <li><a href="/tr/"><img height="25" src="/src/lang/tr.png"></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <div class="br1nyChildren">
-    <div class="br1nybody">
+  <div class="fecatChildren">
+    <div class="fecatbody">
       <a href="/tr"
-        ><img src="/img/logo.png" class="br1nybodylogo"
+        ><img src="/img/logo.png" class="fecatbodylogo"
       /></a>
     </div>
-    <div class="br1nymenumobil">
+    <div class="fecatmenumobil">
       <div class="material-symbols-outlined">menu</div>
     </div>
-    <div class="br1nymenulist">
+    <div class="fecatmenulist">
       <ul>
         <a href="/tr/">Anasayfa </a><a href="/tr/hakkimizda/">Kurumsal</a><a href="/tr/services/">Hizmetlerimiz</a><a href="/tr/basket/">Baskı Siparişi Ver</a><a href="/tr/contact/">İletişim</a>
       </ul>
@@ -63,17 +63,17 @@
   </div>
 </div>
 <style>
-  .br1nymenumobil {
+  .fecatmenumobil {
     display: none;
     cursor: pointer;
   }
-  .br1nyChildren {
+  .fecatChildren {
     display: flex;
     width: var(--max);
     gap: 15px;
     align-items: end;
   }
-  .br1ny {
+  .fecat {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -81,41 +81,41 @@
     justify-content: center;
     background-color: #111;
   }
-  .br1nytitle {
+  .fecattitle {
     width: 100%;
     background-color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .br1nytitlebody {
+  .fecattitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
   }
-  .br1nytitlebodytitle {
+  .fecattitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
-  .br1nytitlebodylang {
+  .fecattitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
-  .br1nytitlebodylang ul {
+  .fecattitlebodylang ul {
     display: flex;
     gap: 5px;
   }
-  .br1nybody {
+  .fecatbody {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
   }
-  .br1nymenulist {
+  .fecatmenulist {
     display: block;
     background-color: #1e3046;
     padding: 10px;
@@ -123,14 +123,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 100%;
   }
-  .br1nymenubody {
+  .fecatmenubody {
     width: 100%;
     background-color: #1e3046;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .br1nymenulist ul {
+  .fecatmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -139,7 +139,7 @@
     padding: 0;
     overflow-x: auto;
   }
-  .br1nymenulist ul a {
+  .fecatmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -150,77 +150,77 @@
     display: inline-block;
     white-space: nowrap;
   }
-  .br1nymenulist ul a:hover {
+  .fecatmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
-  .br1nybodylogo {
+  .fecatbodylogo {
     height: 120px;
     max-width: 90vw;
   }
   @media screen and (min-width: 1024px) {
-    .br1nymenumobil {
+    .fecatmenumobil {
       display: none !important;
     }
-    .br1nymenulist {
+    .fecatmenulist {
       display: flex !important;
     }
   }
   @media screen and (max-width: 1024px) {
-    .br1nymenumobil {
+    .fecatmenumobil {
       display: flex;
       align-items: center;
       justify-content: end;
       background-color: #1e3046;
       width: 100%;
     }
-    .br1nymenumobil div {
+    .fecatmenumobil div {
       font-size: 32px;
       color: #fff;
       padding: 5px;
     }
-    .br1nymenulist {
+    .fecatmenulist {
       display: none;
     }
-    .br1nybody {
+    .fecatbody {
       flex-direction: column;
       gap: 20px;
     }
-    .br1nyChildren {
+    .fecatChildren {
       width: 100%;
       gap: 0px;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
-    .br1nymenulist ul a {
+    .fecatmenulist ul a {
       padding: 10px 0px 10px 0px;
     }
-    .br1nymenu {
+    .fecatmenu {
       overflow-x: auto;
     }
-    .br1nymenulist ul {
+    .fecatmenulist ul {
       flex-direction: column;
     }
-    .br1nybodylogo {
+    .fecatbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
   }
   @media screen and (max-width: 768px) {
-    .br1nymenulist ul a {
+    .fecatmenulist ul a {
       font-size: 14px;
     }
   }
 </style>
 <script>
   document
-    .querySelector('.br1nymenumobil')
+    .querySelector('.fecatmenumobil')
     .addEventListener('click', function () {
-      const menu = document.querySelector('.br1nymenulist');
+      const menu = document.querySelector('.fecatmenulist');
       if (menu.style.display === 'flex') {
         menu.style.display = 'none';
       } else {
