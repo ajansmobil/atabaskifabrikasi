@@ -1,3 +1,3 @@
 User-agent: *
   Disallow:
-  Sitemap: https:///map.xml
+  Sitemap: https://atabaski.com.tr/map.xml
